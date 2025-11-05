@@ -25,7 +25,7 @@ For our project, we decided to work with TinyML. More specifcially, we chose the
 
 ## 3. Problem Definition
 Describe the AI or hardware design problem you aim to address and its relevance to AI hardware (e.g., efficiency, latency, scalability).
-Traditional touch screens and buttons can often be unreliable or inefficient when completing certain tasks in remote environments. Our project aims to deploy an AI system that runs gesture recognition on embedded hardware with the goal of allowing users control over their devices without ever having to interact with a touch screen or button. This project directly relates to AI hardware by allowing us to analyze the inference efficiency and latency of models using an on-device TinyML platform. 
+Traditional touch screens and buttons can often be unreliable or inefficient when completing certain tasks in remote environments. Certain users often struggle with certain button layouts and other user actions on their devices. Our project aims to deploy an AI system that runs gesture recognition on embedded hardware with the goal of allowing users control over their devices without ever having to interact with a touch screen or button. This project directly relates to AI hardware by allowing us to analyze the inference efficiency and latency of models using an on-device TinyML platform. 
 
 ## 4. Technical Objectives
 List 3–5 measurable objectives with quantitative targets when possible.
@@ -43,6 +43,19 @@ List 3–5 measurable objectives with quantitative targets when possible.
 
 ## 5. Methodology
 Describe your planned approach: hardware setup, software tools, model design, performance metrics, and validation strategy.
+Hardware Setup:
+- Platform: Arduino Nano 33 BLE Sense with built-in IMU
+- LED for visualization
+Software Tools:
+- Edge Impulse: for model training, data collection, and model deployment
+- Arduino IDE:
+- TensorFlow:
+Model Design:
+Model Perfomance Metrics:
+- Latency (ms)
+- Accuracy (%)
+- Memory Usage (KB)
+Validation Strategy: 
 
 ## 6. Expected Deliverables
 List tangible outputs: working demo, GitHub repository, documentation, presentation slides, and final report.
@@ -73,5 +86,8 @@ List special hardware, datasets, or compute access needed.
 ## 10. References
 Include relevant papers, repositories, and documentation.
 
-Temporary links: https://www.renesas.com/en/blogs/four-metrics-you-must-consider-when-developing-tinyml-systems?srsltid=AfmBOorvVIQH1DA60rOIk2xxC1-hCXHDlXCVZJQzHSADJstbeDEpeneR
+Temporary links: 
+- TinyML Considerations: https://www.renesas.com/en/blogs/four-metrics-you-must-consider-when-developing-tinyml-systems?srsltid=AfmBOorvVIQH1DA60rOIk2xxC1-hCXHDlXCVZJQzHSADJstbeDEpeneR
+- Arduino IMU: https://docs.arduino.cc/tutorials/nano-33-ble-sense/imu-accelerometer/
+
 
