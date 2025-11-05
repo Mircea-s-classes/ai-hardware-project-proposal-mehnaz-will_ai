@@ -96,5 +96,6 @@ Include relevant papers, repositories, and documentation.
 Temporary links: 
 - TinyML Considerations: https://www.renesas.com/en/blogs/four-metrics-you-must-consider-when-developing-tinyml-systems?srsltid=AfmBOorvVIQH1DA60rOIk2xxC1-hCXHDlXCVZJQzHSADJstbeDEpeneR
 - Arduino IMU: https://docs.arduino.cc/tutorials/nano-33-ble-sense/imu-accelerometer/
+- https://www.hackster.io/jithinsanal1610/gesture-based-media-player-controller-using-arduino-b78647
 
 
