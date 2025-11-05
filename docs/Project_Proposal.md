@@ -25,6 +25,7 @@ For our project, we decided to work with TinyML. More specifcially, we chose the
 
 ## 3. Problem Definition
 Describe the AI or hardware design problem you aim to address and its relevance to AI hardware (e.g., efficiency, latency, scalability).
+Traditional touch screens and buttons can often be unreliable or inefficient when completing certain tasks in remote environments. Our project aims to deploy an AI system that runs gesture recognition on embedded hardware with the goal of allowing users control over their devices without ever having to interact with a touch screen or button. 
 
 ## 4. Technical Objectives
 List 3–5 measurable objectives with quantitative targets when possible.
