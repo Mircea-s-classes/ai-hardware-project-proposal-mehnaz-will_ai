@@ -73,7 +73,7 @@ List each member’s main role.
 
 | Name | Responsibilities |
 |------|----------------------|
-| Mehnaz| Tasnim and Will Goodwin: Working on documentation, software and hardware setup, collecting data|
+| Mehnaz Tasnim and Will Goodwin| Working on documentation, software and hardware setup, collecting data|
 | Mehnaz Tasnim| Github setup, model training|
 | Will Goodwin| Model training, integration and testing|
 
