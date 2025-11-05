@@ -11,7 +11,7 @@
 # AI Hardware Project Proposal Template
 
 ## 1. Gesture-Controlled Devices on TinyML
-Arduino Accelerators
+Name of the Team: Arduino Accelerators
 
 Mehnaz Tasnim, Will Goodwin
 
@@ -25,7 +25,9 @@ For our project, we decided to work with TinyML. More specifcially, we chose the
 
 ## 3. Problem Definition
 Describe the AI or hardware design problem you aim to address and its relevance to AI hardware (e.g., efficiency, latency, scalability).
-Traditional touch screens and buttons can often be unreliable or inefficient when completing certain tasks in busy environments. Users often struggle with certain button layouts and other user actions on their devices when completing tasks such as lecturing or driving their vehicles. BMW actually addressed this issue years ago, but the technology of the time was not capable of low latency and intuitive response. Our project aims to deploy an AI system that runs gesture recognition on embedded hardware with the goal of allowing users control over their devices without ever having to interact with a touch screen or button. These gesture controls will allow the user to change the volume, skip, play, pause, and rewind controls of their music. This project directly relates to AI hardware by allowing us to analyze the inference efficiency and latency of models using an on-device TinyML platform. 
+
+ 
+Traditional touch screens and buttons can often be unreliable or inefficient when completing certain tasks in remote environments. Certain users often struggle with certain button layouts and other user actions on their devices. Our project aims to deploy an AI system that runs gesture recognition on embedded hardware with the goal of allowing users control over their devices without ever having to interact with a touch screen or button. This project directly relates to AI hardware by allowing us to analyze the inference efficiency and latency of models using an on-device TinyML platform. 
 
 ## 4. Technical Objectives
 List 3–5 measurable objectives with quantitative targets when possible.
@@ -46,23 +48,16 @@ Describe your planned approach: hardware setup, software tools, model design, pe
 Hardware Setup:
 - Platform: Arduino Nano 33 BLE Sense with built-in IMU
 - LED for visualization
-
 Software Tools:
 - Edge Impulse: for model training, data collection, and model deployment
-- Arduino IDE: for coding the model
-- TensorFlow: quantization and inference
-
+- Arduino IDE:
+- TensorFlow:
 Model Design:
-
 Model Perfomance Metrics:
 - Latency (ms)
 - Accuracy (%)
 - Memory Usage (KB)
-
-
-Validation Strategy:
-- Collect samples from various users
-- Data Split: Training - 70%, Validation - 20%, Test - 10%
+Validation Strategy: 
 
 ## 6. Expected Deliverables
 List tangible outputs: working demo, GitHub repository, documentation, presentation slides, and final report.
@@ -72,10 +67,9 @@ List each member’s main role.
 
 | Name | Role | Responsibilities |
 |------|------|------------------|
-| [Student A] | Team Lead | Coordination, documentation |
-| [Student B] | Hardware | Setup, integration |
-| [Student C] | Software | Model training, inference |
-| [Student D] | Evaluation | Testing, benchmarking |
+| Mehnaz Tasnim and Will Goodwin: Working on documentation, software and hardware setup, collecting data
+| Mehnaz Tasnim: Github setup, model training
+| Will Goodwin: Model training, integration and testing
 
 ## 8. Timeline and Milestones
 Provide expected milestones:
@@ -88,7 +82,12 @@ Provide expected milestones:
 | Dec. 18 | Final presentation | Report, demo, GitHub archive |
 
 ## 9. Resources Required
-List special hardware, datasets, or compute access needed.
+- Arduino Uno/Nano
+- HC-SR04 ultrasonic (IR distance sensors )
+- USB serial to a PC script that presses media keys
+- Arduino IDE
+- Edge Impulse
+- TensorFlow
 
 ## 10. References
 Include relevant papers, repositories, and documentation.
@@ -96,6 +95,7 @@ Include relevant papers, repositories, and documentation.
 Temporary links: 
 - TinyML Considerations: https://www.renesas.com/en/blogs/four-metrics-you-must-consider-when-developing-tinyml-systems?srsltid=AfmBOorvVIQH1DA60rOIk2xxC1-hCXHDlXCVZJQzHSADJstbeDEpeneR
 - Arduino IMU: https://docs.arduino.cc/tutorials/nano-33-ble-sense/imu-accelerometer/
+- https://www.instructables.com/Motion-and-Gesture-Detection-by-Arduino-and-PIR-Se/
 - https://www.hackster.io/jithinsanal1610/gesture-based-media-player-controller-using-arduino-b78647
 
 
