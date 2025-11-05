@@ -55,7 +55,9 @@ Model Perfomance Metrics:
 - Latency (ms)
 - Accuracy (%)
 - Memory Usage (KB)
-Validation Strategy: 
+Validation Strategy:
+- Collect samples from various users
+- Split: Training - 70%, Validation - 20%, Test - 10%
 
 ## 6. Expected Deliverables
 List tangible outputs: working demo, GitHub repository, documentation, presentation slides, and final report.
