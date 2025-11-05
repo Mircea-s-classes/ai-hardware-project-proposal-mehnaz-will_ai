@@ -10,7 +10,7 @@
 
 # AI Hardware Project Proposal Template
 
-## 1. Project Title
+## 1. Gesture-Controlled Devices on TinyML
 Name of the Team
 
 Mehnaz Tasnim, Will Goodwin
