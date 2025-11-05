@@ -46,15 +46,20 @@ Describe your planned approach: hardware setup, software tools, model design, pe
 Hardware Setup:
 - Platform: Arduino Nano 33 BLE Sense with built-in IMU
 - LED for visualization
+
 Software Tools:
 - Edge Impulse: for model training, data collection, and model deployment
 - Arduino IDE: for coding the model
 - TensorFlow: quantization and inference
+
 Model Design:
+
 Model Perfomance Metrics:
 - Latency (ms)
 - Accuracy (%)
 - Memory Usage (KB)
+
+
 Validation Strategy:
 - Collect samples from various users
 - Data Split: Training - 70%, Validation - 20%, Test - 10%
