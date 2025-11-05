@@ -48,8 +48,8 @@ Hardware Setup:
 - LED for visualization
 Software Tools:
 - Edge Impulse: for model training, data collection, and model deployment
-- Arduino IDE:
-- TensorFlow:
+- Arduino IDE: for coding the model
+- TensorFlow: quantization and inference
 Model Design:
 Model Perfomance Metrics:
 - Latency (ms)
