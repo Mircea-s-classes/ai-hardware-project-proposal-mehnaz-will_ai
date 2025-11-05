@@ -15,7 +15,6 @@ Name of the Team: Arduino Accelerators
 
 Mehnaz Tasnim, Will Goodwin
 
-Provide a clear and concise title for your project. 
 
 ## 2. Platform Selection
 For our project, we decided to work with TinyML. More specifcially, we chose the Arduino Nano 33 BLE Sense. This platform has many built in features and sensors, such as a 9-axis IMU, which allows us track user movements and other inputs. The variety of sensors on this platform helps to limit the amount of extra hardware we need to effectively deploy the project. 
@@ -46,6 +45,8 @@ List 3–5 measurable objectives with quantitative targets when possible.
 
 ## 5. Methodology
 Describe your planned approach: hardware setup, software tools, model design, performance metrics, and validation strategy.
+
+
 Hardware Setup:
 - Platform: Arduino Nano 33 BLE Sense with built-in IMU
 - LED for visualization
@@ -53,13 +54,16 @@ Software Tools:
 - Edge Impulse: for model training, data collection, and model deployment
 - Arduino IDE:
 - TensorFlow:
+
 Model Design:
+
 Model Perfomance Metrics:
 - Latency (ms)
 - Accuracy (%)
 - Memory Usage (KB)
+
 Validation Strategy:
-Data Split: Training - 70%, Validation - 20%, Test - 10%
+- Data Split: Training - 70%, Validation - 20%, Test - 10%
 
 ## 6. Expected Deliverables
 List tangible outputs: working demo, GitHub repository, documentation, presentation slides, and final report.
@@ -67,8 +71,8 @@ List tangible outputs: working demo, GitHub repository, documentation, presentat
 ## 7. Team Responsibilities
 List each member’s main role.
 
-| Name | Role | Responsibilities |
-|------|------|------------------|
+| Name | Responsibilities |
+|------|----------------------|
 | Mehnaz Tasnim and Will Goodwin: Working on documentation, software and hardware setup, collecting data
 | Mehnaz Tasnim: Github setup, model training
 | Will Goodwin: Model training, integration and testing
