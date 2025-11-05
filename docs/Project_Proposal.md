@@ -11,7 +11,7 @@
 # AI Hardware Project Proposal Template
 
 ## 1. Gesture-Controlled Devices on TinyML
-Name of the Team
+Arduino Accelerators
 
 Mehnaz Tasnim, Will Goodwin
 
