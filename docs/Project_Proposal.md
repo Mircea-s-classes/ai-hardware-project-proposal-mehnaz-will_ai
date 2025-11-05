@@ -18,7 +18,7 @@ Mehnaz Tasnim, Will Goodwin
 Provide a clear and concise title for your project. 
 
 ## 2. Platform Selection
-For our project, we decided to work with TinyML. More specifcially, we chose the Arduino Nano 33 BLE Sense. This platform has many built in features, such as a 9-axis IMU, which allows us to limit the amount of extra hardware we need. 
+For our project, we decided to work with TinyML. More specifcially, we chose the Arduino Nano 33 BLE Sense. This platform has many built in features and sensors, such as a 9-axis IMU, which allows us track user movements and other inputs. The variety of sensors on this platform helps to limit the amount of extra hardware we need to effectively deploy the project. 
 
 **Undergraduates:** Edge-AI, TinyML, or Neuromorphic platforms  
 **Graduates:** open-source AI accelerators (Ztachip, VTA, Gemmini, VeriGOOD-ML, NVDLA) or any of the above 
