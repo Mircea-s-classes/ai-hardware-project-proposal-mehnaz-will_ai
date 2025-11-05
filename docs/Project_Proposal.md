@@ -72,3 +72,6 @@ List special hardware, datasets, or compute access needed.
 
 ## 10. References
 Include relevant papers, repositories, and documentation.
+
+Temporary links: https://www.renesas.com/en/blogs/four-metrics-you-must-consider-when-developing-tinyml-systems?srsltid=AfmBOorvVIQH1DA60rOIk2xxC1-hCXHDlXCVZJQzHSADJstbeDEpeneR
+
