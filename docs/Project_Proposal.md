@@ -75,7 +75,7 @@ List each member’s main role.
 |------|----------------------|
 | Mehnaz| Tasnim and Will Goodwin: Working on documentation, software and hardware setup, collecting data|
 | Mehnaz Tasnim| Github setup, model training|
-| Will Goodwin:| Model training, integration and testing|
+| Will Goodwin| Model training, integration and testing|
 
 ## 8. Timeline and Milestones
 Provide expected milestones:
