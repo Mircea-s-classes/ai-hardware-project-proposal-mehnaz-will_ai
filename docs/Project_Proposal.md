@@ -27,7 +27,7 @@ For our project, we decided to work with TinyML. More specifcially, we chose the
 Describe the AI or hardware design problem you aim to address and its relevance to AI hardware (e.g., efficiency, latency, scalability).
 
  
-Traditional touch screens and buttons can often be unreliable or inefficient when completing certain tasks in remote environments. Certain users often struggle with certain button layouts and other user actions on their devices. Our project aims to deploy an AI system that runs gesture recognition on embedded hardware with the goal of allowing users control over their devices without ever having to interact with a touch screen or button. This project directly relates to AI hardware by allowing us to analyze the inference efficiency and latency of models using an on-device TinyML platform. 
+Traditional touch screens and buttons can often be unreliable or inefficient when completing certain tasks in busy environments. Users often struggle with certain button layouts and other user actions on their devices when completing tasks such as lecturing or driving their vehicles. BMW actually addressed this issue years ago, but the technology of the time was not capable of low latency and intuitive response. Our project aims to deploy an AI system that runs gesture recognition on embedded hardware with the goal of allowing users control over their devices without ever having to interact with a touch screen or button. These gesture controls will allow the user to change the volume, skip, play, pause, and rewind controls of their music. This project directly relates to AI hardware by allowing us to analyze the inference efficiency and latency of models using an on-device TinyML platform.
 
 ## 4. Technical Objectives
 List 3–5 measurable objectives with quantitative targets when possible.
@@ -41,6 +41,7 @@ List 3–5 measurable objectives with quantitative targets when possible.
    - Achieve inference times less than or equal to 250ms
 4. Minimize power and memory usage on hardware
    - Less than 300kB memory usage
+  
 
 
 ## 5. Methodology
@@ -57,7 +58,8 @@ Model Perfomance Metrics:
 - Latency (ms)
 - Accuracy (%)
 - Memory Usage (KB)
-Validation Strategy: 
+Validation Strategy:
+Data Split: Training - 70%, Validation - 20%, Test - 10%
 
 ## 6. Expected Deliverables
 List tangible outputs: working demo, GitHub repository, documentation, presentation slides, and final report.
