@@ -56,6 +56,9 @@ Software Tools:
 - TensorFlow:
 
 Model Design:
+- Input: IMU Data
+- Preprocessing: Normalization 
+- Model: 1D CNN
 
 Model Perfomance Metrics:
 - Latency (ms)
@@ -98,7 +101,7 @@ Provide expected milestones:
 ## 10. References
 Include relevant papers, repositories, and documentation.
 
-Temporary links: 
+Resource links: 
 - TinyML Considerations: https://www.renesas.com/en/blogs/four-metrics-you-must-consider-when-developing-tinyml-systems?srsltid=AfmBOorvVIQH1DA60rOIk2xxC1-hCXHDlXCVZJQzHSADJstbeDEpeneR
 - Arduino IMU: https://docs.arduino.cc/tutorials/nano-33-ble-sense/imu-accelerometer/
 - https://www.instructables.com/Motion-and-Gesture-Detection-by-Arduino-and-PIR-Se/
