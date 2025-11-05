@@ -30,6 +30,17 @@ Traditional touch screens and buttons can often be unreliable or inefficient whe
 ## 4. Technical Objectives
 List 3–5 measurable objectives with quantitative targets when possible.
 
+1. Collect and label IMU training data for various hand gestures.
+   - 4 or more gestures classes 
+   - 200 samples per gesture class
+2. Train and deploy TinyML model with the ability to detect and classify hand gestures in real time.
+   - 85% minimum recognition accuracy
+3. Reach low-latency inference times.
+   - Achieve inference times less than or equal to 250ms
+4. Minimize power and memory usage on hardware
+   - Less than 300kB memory usage
+
+
 ## 5. Methodology
 Describe your planned approach: hardware setup, software tools, model design, performance metrics, and validation strategy.
 
