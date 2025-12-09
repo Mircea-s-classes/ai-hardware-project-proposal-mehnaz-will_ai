@@ -51,9 +51,10 @@ Hardware Setup:
 - Platform: Arduino Nano 33 BLE Sense with built-in IMU
 - LED for visualization
 Software Tools:
-- Edge Impulse: for model training, data collection, and model deployment
-- Arduino IDE:
-- TensorFlow:
+- Edge Impulse is used for data collection, data labeling, model training, and deployment to embedded hardware.
+- Arduino IDE is used to upload firmware and run real-time inference directly on the microcontroller.
+- Edge Impulse CLI is used to connect the Arduino to the Edge Impulse platform for live data collection and testing.
+
 
 Model Design:
 - Input: IMU Data
@@ -96,7 +97,6 @@ Provide expected milestones:
 - USB serial to a PC script that presses media keys
 - Arduino IDE
 - Edge Impulse
-- TensorFlow
 
 ## 10. References
 Include relevant papers, repositories, and documentation.
