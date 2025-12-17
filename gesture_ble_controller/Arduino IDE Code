@@ -264,17 +264,27 @@ void loop()
     }
 
 // only act if confident + debounced
-    if (canTrigger() && confidence > 0.85) {
+    if (canTrigger() && confidence > 0.85f) {
 
-    if (strcmp(label, "play") == 0) {
-        sendKey(0x01);   // Play / Pause
-    }
-    else if (strcmp(label, "skip") == 0) {
-        sendKey(0x02);   // Next track
-    }
-    else if (strcmp(label, "back") == 0) {
-        sendKey(0x04);   // Previous track
-    }
+        // Swipe DOWN → Play
+        if (strcmp(label, "play") == 0) {
+            sendKey(0x01);   // Play
+        }
+
+        // Swipe UP → Pause
+        else if (strcmp(label, "pause") == 0) {
+            sendKey(0x01);   // Pause (same media toggle key)
+        }
+
+        // Skip forward
+        else if (strcmp(label, "skip") == 0) {
+            sendKey(0x02);   // Next track
+        }
+
+        // Go back
+        else if (strcmp(label, "back") == 0) {
+            sendKey(0x04);   // Previous track
+        }
     }
 
 
