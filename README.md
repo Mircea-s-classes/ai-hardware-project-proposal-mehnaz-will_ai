@@ -1,4 +1,4 @@
-# Gesture-Based Music Control Using Embedded AI
+# Gesture-Based Music Control Using Arduino
 
 ## Team Information
 **Team Name:** Arduino Accelerators  
